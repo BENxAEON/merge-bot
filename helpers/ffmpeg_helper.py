@@ -339,7 +339,7 @@ async def extractAudios(path_to_file, user_id):
                     + audio["tags"]["title"]
                     + "."
                     + audio["codec_type"]
-                    + ".aac"
+                    + ".mka"
                 )
                 output_file = output_file.replace(" ", ".")
             except:
