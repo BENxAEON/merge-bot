@@ -204,7 +204,7 @@ def MergeAudio(videoPath: str, files_list: list, user_id):
     LOGGER.info(muxcmd)
     process = subprocess.call(muxcmd)
     LOGGER.info(process)
-    return f"downloads/{str(user_id)}/[@yashoswalyo]_export.mkv"
+    return f"downloads/{str(user_id)}/[@BENxENCODE]_export.mkv"
 
 
 async def cult_small_video(video_file, output_directory, start_time, end_time, format_):
